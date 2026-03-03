@@ -1,0 +1,100 @@
+/* =========================
+   CARD BASE
+========================= */
+
+.custom-card {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.18);
+}
+
+/* =========================
+   IMAGE SECTION
+========================= */
+
+.image-wrapper {
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.hall-image {
+  transition: transform 0.6s ease;
+}
+
+.custom-card:hover .hall-image {
+  transform: scale(1.08);
+}
+
+/* =========================
+   LOCATION + CAPACITY EFFECT
+========================= */
+
+.location-box {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.location-box:hover {
+  transform: translateX(8px);
+}
+
+.location-icon {
+  color: red;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.capacity-icon {
+  color: #0d6efd;
+  transition: transform 0.3s ease;
+}
+
+.location-box:hover .location-icon,
+.location-box:hover .capacity-icon {
+  transform: scale(1.15);
+}
+
+/* =========================
+   BUTTON EFFECTS
+========================= */
+
+.btn {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(108, 117, 125, 0.35);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.35);
+}
+
+/* =========================
+   RATING BADGE EFFECT
+========================= */
+
+.custom-card:hover .position-absolute {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* =========================
+   MOBILE FIX
+========================= */
+
+@media (max-width: 768px) {
+  .image-wrapper {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+  }
+}

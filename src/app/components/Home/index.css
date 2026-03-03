@@ -1,0 +1,12 @@
+.home-bottom-containers {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+
+}
+
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */

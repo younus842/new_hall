@@ -1,6 +1,7 @@
-export const functionHalls = [
+export
+const functionHalls = [
   {
-    id: "nn-palace",
+    id: "1",
     name: "NN Palace",
     address: "Bodhan Road, near knowledge park",
     capacity: 500,
@@ -23,15 +24,15 @@ export const functionHalls = [
       "Waiters Cost",
     ],
     unavailableDates: [
-      new Date(2026, 2, 15), // March 15, 2026
-      new Date(2026, 2, 20), // March 20, 2026
-      new Date(2026, 2, 25), // March 25, 2026
+      new Date(2026, 2, 15),
+      new Date(2026, 2, 20),
+      new Date(2026, 2, 25),
     ],
     latitude: 18.965144,
     longitude: 77.632045,
   },
   {
-    id: "grand-celebrations",
+    id: "2",
     name: "Grand Celebrations",
     address: "MG Road, Jubilee Hills",
     capacity: 800,
@@ -63,7 +64,69 @@ export const functionHalls = [
     longitude: 78.409614,
   },
   {
-    id: "royal-gardens",
+    id: "3",
+    name: "Royal Gardens",
+    address: "Banjara Hills, Road No 12",
+    capacity: 600,
+    price: 75000,
+    images: [
+      'https://content3.jdmagicbox.com/comp/nizamabad/q5/9999p8462.8462.221231224415.z8q5/catalogue/imperial-convention-nizamabad-convention-halls-vrsesnjl2j.jpg',
+      'https://content3.jdmagicbox.com/comp/nizamabad/h9/9999p8462.8462.171201174649.z8h9/catalogue/n-n-palace-function-hall-bodhan-nizamabad-banquet-halls-2e9vk9pi5u.jpg',
+      'https://content3.jdmagicbox.com/comp/nizamabad/q5/9999p8462.8462.221231224415.z8q5/catalogue/imperial-convention-nizamabad-convention-halls-vrsesnjl2j.jpg',
+    ],
+    amenities: {
+      airConditioned: true,
+      parkingAvailable: true,
+      cateringService: true,
+    },
+    packageIncludes: [
+      "1 Groom Stage",
+      "1 Bride Stage with Photos",
+      "Labour Cost",
+      "Electricity Cost",
+      "Waiters Cost",
+      "DJ System",
+    ],
+    unavailableDates: [
+      new Date(2026, 2, 12),
+      new Date(2026, 2, 22),
+    ],
+    latitude: 17.419926,
+    longitude: 78.430733,
+  },
+    {
+    id: "4",
+    name: "Royal Gardens",
+    address: "Banjara Hills, Road No 12",
+    capacity: 600,
+    price: 75000,
+    images: [
+      'https://content3.jdmagicbox.com/comp/nizamabad/q5/9999p8462.8462.221231224415.z8q5/catalogue/imperial-convention-nizamabad-convention-halls-vrsesnjl2j.jpg',
+      'https://content3.jdmagicbox.com/comp/nizamabad/h9/9999p8462.8462.171201174649.z8h9/catalogue/n-n-palace-function-hall-bodhan-nizamabad-banquet-halls-2e9vk9pi5u.jpg',
+      'https://content3.jdmagicbox.com/comp/nizamabad/q5/9999p8462.8462.221231224415.z8q5/catalogue/imperial-convention-nizamabad-convention-halls-vrsesnjl2j.jpg',
+    ],
+    amenities: {
+      airConditioned: true,
+      parkingAvailable: true,
+      cateringService: true,
+    },
+    packageIncludes: [
+      "1 Groom Stage",
+      "1 Bride Stage with Photos",
+      "Labour Cost",
+      "Electricity Cost",
+      "Waiters Cost",
+      "DJ System",
+    ],
+    unavailableDates: [
+      new Date(2026, 2, 12),
+      new Date(2026, 2, 22),
+    ],
+    latitude: 17.419926,
+    longitude: 78.430733,
+  },
+    {
+    id: "5",
     name: "Royal Gardens",
     address: "Banjara Hills, Road No 12",
     capacity: 600,
