@@ -10,6 +10,11 @@ export const functionHalls = [
       'https://content3.jdmagicbox.com/comp/nizamabad/h9/9999p8462.8462.171201174649.z8h9/catalogue/n-n-palace-function-hall-bodhan-nizamabad-banquet-halls-2e9vk9pi5u.jpg',
       'https://content3.jdmagicbox.com/comp/nizamabad/q5/9999p8462.8462.221231224415.z8q5/catalogue/imperial-convention-nizamabad-convention-halls-vrsesnjl2j.jpg',
     ],
+    amenities: {
+      airConditioned: false,
+      parkingAvailable: true,
+      cateringService: true,
+    },
     packageIncludes: [
       "1 Groom Stage",
       "1 Bride Stage with Photos",
@@ -36,6 +41,11 @@ export const functionHalls = [
       'https://content3.jdmagicbox.com/comp/nizamabad/h9/9999p8462.8462.171201174649.z8h9/catalogue/n-n-palace-function-hall-bodhan-nizamabad-banquet-halls-2e9vk9pi5u.jpg',
       'https://content3.jdmagicbox.com/comp/nizamabad/q5/9999p8462.8462.221231224415.z8q5/catalogue/imperial-convention-nizamabad-convention-halls-vrsesnjl2j.jpg',
     ],
+    amenities: {
+      airConditioned: true,
+      parkingAvailable: true,
+      cateringService: true,
+    },
     packageIncludes: [
       "2 Groom Stages",
       "2 Bride Stages with Photos",
@@ -63,6 +73,11 @@ export const functionHalls = [
       'https://content3.jdmagicbox.com/comp/nizamabad/h9/9999p8462.8462.171201174649.z8h9/catalogue/n-n-palace-function-hall-bodhan-nizamabad-banquet-halls-2e9vk9pi5u.jpg',
       'https://content3.jdmagicbox.com/comp/nizamabad/q5/9999p8462.8462.221231224415.z8q5/catalogue/imperial-convention-nizamabad-convention-halls-vrsesnjl2j.jpg',
     ],
+    amenities: {
+      airConditioned: true,
+      parkingAvailable: true,
+      cateringService: true,
+    },
     packageIncludes: [
       "1 Groom Stage",
       "1 Bride Stage with Photos",

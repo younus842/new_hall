@@ -307,13 +307,9 @@ export default function FunctionHallDetails() {
                   modifiers={{
                     booked: hall.unavailableDates,
                   }}
-                  modifiersStyles={{
-                    booked: {
-                      backgroundColor: "#fee2e2",
-                      color: "#991b1b",
-                      textDecoration: "line-through",
-                    },
-                  }}
+modifiersClassNames={{
+    booked: "bg-red-100 text-red-800 line-through rounded-md opacity-50 cursor-not-allowed"
+  }}
                 />
               </div>
               

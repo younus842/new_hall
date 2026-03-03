@@ -34,22 +34,25 @@ function Calendar({
         head_cell:
           "text-muted-foreground rounded-md w-8 font-normal text-[0.8rem]",
         row: "flex w-full mt-2",
-        cell: cn(
-          "relative p-0 text-center text-sm focus-within:relative focus-within:z-20 [&:has([aria-selected])]:bg-accent [&:has([aria-selected].day-range-end)]:rounded-r-md",
-          props.mode === "range"
-            ? "[&:has(>.day-range-end)]:rounded-r-md [&:has(>.day-range-start)]:rounded-l-md first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md"
-            : "[&:has([aria-selected])]:rounded-md",
-        ),
-        day: cn(
-          buttonVariants({ variant: "ghost" }),
-          "size-8 p-0 font-normal aria-selected:opacity-100",
-        ),
+        cell: "h-9 w-9 text-center text-sm p-0 relative focus-within:relative focus-within:z-20",
+
         day_range_start:
           "day-range-start aria-selected:bg-primary aria-selected:text-primary-foreground",
         day_range_end:
           "day-range-end aria-selected:bg-primary aria-selected:text-primary-foreground",
-        day_selected:
-          "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground",
+
+      day: cn(
+    buttonVariants({ variant: "ghost" }),
+    "h-10 w-10 p-0 font-normal rounded-full transition-colors",
+    // This ensures that even when hovering over a NON-selected date, it turns gray
+    "hover:bg-slate-100 hover:text-slate-900" 
+  ),
+  day_selected: cn(
+    // We use ! (important) to force the black background
+    "!bg-black !text-white !opacity-100 rounded-full",
+    // This fix ensures it STAYS black when you hover over the selected date
+    "hover:!bg-black hover:!text-white focus:!bg-black focus:!text-white"
+  ),
         day_today: "bg-accent text-accent-foreground",
         day_outside:
           "day-outside text-muted-foreground aria-selected:text-muted-foreground",
